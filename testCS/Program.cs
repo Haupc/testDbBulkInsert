@@ -18,7 +18,7 @@ namespace testCS
             program.DatabaseCleanup(context);
             Console.WriteLine("done detele");
 
-            string FilePath = "C:\\Users\\haupc\\Desktop\\Data.xlsx";
+            string FilePath = "D:\\Web\\Test Everything\\testCS\\testCS\\Data.xlsx";
             FileInfo existingFile = new FileInfo(FilePath);
             ExcelPackage package = new ExcelPackage(existingFile);
             Console.WriteLine("writing Category");
